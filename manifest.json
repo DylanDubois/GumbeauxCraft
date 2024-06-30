@@ -1,10 +1,10 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Script Test Pack",
-    "description": "Tests script functionality",
+    "name": "Diamond Sword Giver",
+    "description": "Gives a diamond sword when 'T' is typed",
     "uuid": "26db481e-c41f-43de-bdd9-3db2931658d5",
-    "version": [1, 0, 4],
+    "version": [1, 0, 5],
     "min_engine_version": [1, 20, 0]
   },
   "modules": [
@@ -12,14 +12,14 @@
       "type": "script",
       "language": "javascript",
       "uuid": "987ac0e6-abe2-422e-beae-7f36aaef83ba",
-      "version": [1, 0, 4],
+      "version": [1, 0, 5],
       "entry": "scripts/main.js"
     }
   ],
   "dependencies": [
     {
       "module_name": "@minecraft/server",
-      "version": "1.7.0-beta"
+      "version": "1.11.0-beta"
     }
   ]
 }
