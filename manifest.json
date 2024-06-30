@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Diamond Sword Giver",
+    "description": "Gives all players a diamond sword when 'T' is typed",
+    "uuid": "26db481e-c41f-43de-bdd9-3db2931658d5",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 19, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "987ac0e6-abe2-422e-beae-7f36aaef83ba",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+      "version": [0, 1, 0]
+    }
+  ]
+}
