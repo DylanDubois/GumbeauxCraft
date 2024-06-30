@@ -2,6 +2,7 @@ import { world, ItemStack } from "@minecraft/server";
 
 world.events.beforeChat.subscribe((eventData) => {
   if (eventData.message === "T") {
+    console.log("T was typed");
     const players = world.getAllPlayers();
     for (const player of players) {
       const diamondSword = new ItemStack("minecraft:diamond_sword", 1);
